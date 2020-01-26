@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 
 class MovieList extends Component {
+
   render() {
     return (
       <div>
+      
+      	<p>{this.props.test}</p>
+        <p>{this.props.testArray}</p>
+      	<p>{this.props.profiles}</p>
+      
         <i>below, hardcoded html text I want to replicate in style:</i>
 
         <h2>Forrest Gump</h2>

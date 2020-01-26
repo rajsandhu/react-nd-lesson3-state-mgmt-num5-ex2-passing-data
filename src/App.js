@@ -98,6 +98,9 @@ const movies = {
   },
 };
 
+const test = "test";
+const testArray = [1,2,3];
+
 class App extends Component {
   render() {
     return (
@@ -110,7 +113,11 @@ class App extends Component {
 
 {/* my coding work starts here */}
 
-<MovieList />
+			<MovieList
+				test = {test}
+				testArray = {testArray}
+				profiles = {profiles[1].id}
+			/>
 
 
 
